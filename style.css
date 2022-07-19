@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    display: flex;
+}
+
+input {
+    display: block;
+    width: 300px;
+    margin: 10vh auto;
+    font-size: 30px;
+    text-align: center;
+}
+
+#life,
+#hint {
+    text-align: center;
+    font-size: 74px;
+    font-family: sans-serif;
+    flex-basis: 50%;
+}
